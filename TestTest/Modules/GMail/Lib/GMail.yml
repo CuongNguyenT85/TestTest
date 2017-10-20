@@ -1,0 +1,12 @@
+﻿HomFrame:
+    by: xpath
+    locator: //iframe
+UserName:
+    by: xpath
+    locator: //input[@type='email']
+Password:
+    by: xpath
+    locator: //input[@type='password']
+NextButton:
+    by: xpath
+    locator: //span[text()='Next']

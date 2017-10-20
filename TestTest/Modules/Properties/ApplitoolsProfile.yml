@@ -1,0 +1,6 @@
+﻿LoginData:
+    userName: CuongNguyenT85@gmail.com
+    password: ripon1541
+Element1:
+    by: xpath
+    locator: //div[@role='presentation']
