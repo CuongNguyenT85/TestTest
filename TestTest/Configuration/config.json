@@ -25,8 +25,10 @@
   "IdleTimeout": 300,
   "Username": "",
   "AccessKey":  "",
-  "Email" : "",
+  "Email": "",
+  "TurnOnApplitools":  true,
   "ApplitoolsAPIKey": "XKNLJB4h3ykdXOhn98uJHwdnLG3Nmh111Vlrrs1H59k107ic110",
+  "ApplitoolsYamlPath": "TestTest.Modules.Properties.Eyes.yml",
   "ApplitoolsScreenHorizontal": 1680,
   "ApplitoolsScreenVertical": 1050,
   "ApplitoolsMatchTimeout":  3000

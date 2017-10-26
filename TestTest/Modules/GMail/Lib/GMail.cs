@@ -27,7 +27,7 @@ namespace TestTest.GMail.Lib
 
         public void SetLogin()
         {
-            GetElement("UserName").SendKeys("VSe.CuongNguyent@gmail.com");
+            GetElement("UserName").SendKeys("vse.CuongNguyen@gmail.com");
         }
 
         public void SetPassword()

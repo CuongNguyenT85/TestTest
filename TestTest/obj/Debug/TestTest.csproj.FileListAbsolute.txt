@@ -13,9 +13,9 @@ C:\TestTest\TestTest\bin\Debug\Palmer.dll
 C:\TestTest\TestTest\bin\Debug\appium-dotnet-driver.dll
 C:\TestTest\TestTest\bin\Debug\Eyes.Selenium.DotNet.dll
 C:\TestTest\TestTest\bin\Debug\Eyes.Sdk.DotNet.dll
+C:\TestTest\TestTest\bin\Debug\Eyes.Utils.DotNet.dll
 C:\TestTest\TestTest\bin\Debug\ICSharpCode.SharpZipLib.dll
 C:\TestTest\TestTest\bin\Debug\Castle.Core.dll
-C:\TestTest\TestTest\bin\Debug\Eyes.Utils.DotNet.dll
 C:\TestTest\TestTest\bin\Debug\log4net.dll
 C:\TestTest\TestTest\bin\Debug\Ionic.Zip.Reduced.dll
 C:\TestTest\TestTest\bin\Debug\Automation.Core.pdb

@@ -10,24 +10,21 @@ namespace ApplitoolsTest
     {
         WebdriverController wdc = new WebdriverController();
 
-        public TestCases()
-        {
-        }
+        ApplitoolsController applitools = new ApplitoolsController();
 
         [SetUp]
         public void SetUp()
         {
-            ApplitoolsController.Instance.Init("TestTest.Modules.GMail.Lib.Eyes.yml");
-            ApplitoolsController.Instance.Open(wdc.ProtractorDriver, "appName", "testName2");
-            ApplitoolsController.Instance.SetBatchName("TestBatch");
-            ApplitoolsController.Instance.SetMatchLevel("Layout");
+            applitools.Open(wdc.ProtractorDriver, "appName", "testName2");
+            applitools.SetBatchName("TestBatch");
+            applitools.SetMatchLevel("Layout");
         }
         
         [TearDown]
         public void Teardown()
         {
             wdc.Dispose();
-            ApplitoolsController.Instance.Dispose();
+            applitools.Dispose();
         }
         
         [Test]
@@ -36,32 +33,32 @@ namespace ApplitoolsTest
             
             GMail gmail = new GMail(wdc);
 
-            ApplitoolsController.Instance.CheckWindow("Window1");
+            applitools.CheckWindow("Window1");
 
             gmail.SetLogin();
 
 
-            ApplitoolsController.Instance.CheckWindow("Window2");
+            applitools.CheckWindow("Window2");
 
             gmail.ClickNext();
 
 
-            ApplitoolsController.Instance.CheckWindow("Window3");
+            applitools.CheckWindow("Window3");
 
             gmail.SetPassword();
 
 
-            ApplitoolsController.Instance.CheckWindow("Window4");
+            applitools.CheckWindow("Window4");
 
 
             gmail.ClickNext();
 
 
-            ApplitoolsController.Instance.CheckWindow("Window5");
+            applitools.CheckWindow("Window5");
 
-            //ApplitoolsController.Instance.CheckElement("Element1", "Element1");
-            //ApplitoolsController.Instance.CheckElement("Element2", "Element2");
-            //ApplitoolsController.Instance.CheckRegionInFrame(":2p", "Region1", "Region1");
+            //applitools.CheckElement("Element1", "Element1");
+            //applitoolse.CheckElement("Element2", "Element2");
+            //applitools.CheckRegionInFrame(":2p", "Region1", "Region1");
 
 
         }
